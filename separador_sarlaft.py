@@ -27,9 +27,9 @@ directorio_salida = r"K:\Dirección de Incentivos y Subsidios\INCENTIVO-ISA\ISA\
 # Cambiar al directorio de salida
 os.chdir(directorio_salida)
 
-# Nombres de las columnas que quieres separar (ajústalo si los nombres reales son diferentes)
-columna_a = 'NIT_ASEGURADO'  # Reemplaza con el nombre real de la columna A
-columna_b = 'NOMBRE_ASEGURADO'  # Reemplaza con el nombre real de la columna B
+# Nombres de las columnas se necesita separar 
+columna_a = 'NIT_ASEGURADO'  
+columna_b = 'NOMBRE_ASEGURADO'  
 
 # Procesar y guardar cada fragmento por separado
 for i, fragmento in enumerate(fragmentos):
